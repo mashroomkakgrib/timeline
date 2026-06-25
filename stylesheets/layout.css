@@ -19,21 +19,6 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.bg-overlay {
-  position: absolute;
-  width: 100vw;
-  /* height: 78.9vw; */
-  /* height: 282.7vw; */
-  /* height: 215.3vw; */
-  /* height: 133.3vw; события*/
-  /* height: 271.9vw; */
-  height: 62.5vw;
-  object-fit: cover;
-  z-index: 1;
-  pointer-events: none;
-  opacity: 0.2;
-}
-
 /* главная страница */
 
 .main-page {
@@ -445,30 +430,30 @@ section {
   color: #e1e1e1;
 }
 
-.first-marquee,
-.second-marquee {
+.page-about-school .courses-part .first-marquee,
+.page-about-school .courses-part .second-marquee {
   width: 101vw;
   overflow: hidden;
   position: relative;
 }
 
-.parts-of-marquee {
+.page-about-school .courses-part .parts-of-marquee {
   display: flex;
   width: max-content;
 }
 
-.first-marquee .parts-of-marquee {
+.page-about-school .courses-part .first-marquee .parts-of-marquee {
   animation: marquee 15s linear infinite;
 }
 
-.first-marquee {
+.page-about-school .courses-part .first-marquee {
   top: -33vw;
 }
-.second-marquee {
+.page-about-school .courses-part .second-marquee {
   top: -32vw;
 }
 
-.second-marquee .parts-of-marquee {
+.page-about-school .courses-part .second-marquee .parts-of-marquee {
   animation: marquee-plus 15s linear infinite;
   position: relative;
   left: -135vw;
@@ -516,16 +501,16 @@ section {
   color: #e1e1e1;
 }
 
-.courses-part .button-course-text .arrow {
+.page-about-school .courses-part .button-course-text .arrow {
   display: inline-block;
   transition: transform 0.3s ease;
 }
 
-.courses-part .button-course-text:hover {
+.page-about-school .courses-part .button-course-text:hover {
   color: #00f077;
 }
 
-.courses-part .button-course-text:hover .arrow {
+.page-about-school .courses-part .button-course-text:hover .arrow {
   transform: translateX(0.8vw);
 }
 

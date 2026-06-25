@@ -1,0 +1,193 @@
+@media screen and (max-width: 428px) {
+  .main-page {
+    height: 382vw;
+    overflow: hidden;
+  }
+
+  .main-page .heading {
+    height: 119vw;
+  }
+
+  .logo {
+    width: 137vw;
+    height: auto;
+    position: relative;
+    top: 40vw;
+    left: 4vw;
+  }
+
+  .main-page .heading p {
+    font-size: 7.8vw;
+    top: 27vw;
+    left: 74vw;
+  }
+
+  .main-page .heading .clock {
+    width: 7vw;
+    height: 7vw;
+    top: -19vw;
+    left: 30vw;
+  }
+
+  .main-page .heading .frame {
+    width: 12vw;
+    height: 9vw;
+    top: -20vw;
+    left: 41vw;
+  }
+
+  .main-page .heading .arrows2 {
+    width: 10vw;
+    height: 7vw;
+    top: -17vw;
+    left: 54vw;
+  }
+
+  .main-page .heading .pen {
+    width: 10vw;
+    height: 10vw;
+    top: -31vw;
+    left: 70vw;
+  }
+
+  .main-page .heading .visibility {
+    width: 15vw;
+    height: 12vw;
+    top: -24vw;
+    left: 75vw;
+  }
+
+  .main-page .heading .arrow2 {
+    width: 12vw;
+    height: 9vw;
+    top: -15vw;
+    left: 84vw;
+  }
+
+  .main-page .heading .cut {
+    width: 10vw;
+    height: 10vw;
+    top: 44vw;
+    left: 3vw;
+  }
+
+  .main-page .heading .fx {
+    width: 9vw;
+    height: 10vw;
+    top: 49vw;
+    left: 13vw;
+  }
+
+  .main-page .heading .circle {
+    width: 8vw;
+    height: 8vw;
+    top: 24vw;
+    left: 26vw;
+  }
+
+  .main-page .heading .arrows1 {
+    width: 12vw;
+    height: 9vw;
+    top: 42vw;
+    left: 19vw;
+  }
+
+  .main-page .heading .stick {
+    width: 7vw;
+    height: 7vw;
+    top: 38vw;
+    left: 32vw;
+  }
+
+  .main-page .heading .stick2 {
+    width: 8vw;
+    height: 8vw;
+    top: 34vw;
+    left: 42vw;
+  }
+
+  .line {
+    width: 96vw;
+    height: 4vw;
+    left: 2vw;
+    top: 38vw;
+  }
+
+  .cursor {
+    width: 5vw;
+    height: 13vw;
+    left: 82vw;
+    top: 25vw;
+  }
+
+  .main-menu {
+    height: 98vw;
+    top: -66;
+    overflow: hidden;
+  }
+
+  .main-menu a {
+    font-size: 18vw;
+    height: 24.5vw;
+    padding: 1.5vw 0;
+    white-space: nowrap;
+  }
+
+  .about-school {
+    width: 520%;
+  }
+
+  .courses {
+    width: 430%;
+    left: -170%;
+  }
+
+  .events {
+    width: 500%;
+  }
+
+  .shop {
+    width: 430%;
+    left: -170%;
+  }
+
+  .footer {
+    height: 165vw;
+    flex-direction: column;
+    gap: 10vw;
+    padding: 8vw 4vw;
+  }
+
+  .footer .first,
+  .footer .second,
+  .footer .thrid,
+  .footer .forth {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer h1 {
+    font-size: 11vw;
+    margin: 0 0 5vw;
+  }
+
+  .footer p,
+  .footer a {
+    font-size: 5.6vw;
+    margin: 0;
+  }
+
+  .footer p + p,
+  .footer a + a {
+    margin-top: 1.5vw;
+  }
+
+  .footer .forth {
+    align-items: flex-end;
+    margin-top: 5vw;
+  }
+
+  .footer .forth p {
+    font-size: 4vw;
+  }
+}
