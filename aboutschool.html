@@ -5,16 +5,214 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>О ШКОЛЕ</title>
     <link rel="stylesheet" href="stylesheets/style.css" />
-    <script defer src="javascripts/script.js"></script>
+    <script defer src="javascripts/aboutschool.js"></script>
+    <link rel="icon" href="images/icon.svg" />
   </head>
-  <body>
-    <div id="burger"></div>
-    <nav class="mainMenu">
-      <a href="index.html">ТАЙМЛАЙН</a>
-      <a href="aboutschool.html">О ШКОЛЕ</a>
-      <a href="events.html">МЕРОПРИЯТИЯ</a>
-      <a href="courses.html">КУРСЫ</a>
-      <a href="shop.html">МАГАЗИН</a>
+  <body class="page-about-school">
+    <!-- <img class="bg-overlay" src="images/layouts/about-school.png" alt="Frame" /> -->
+    <nav class="comeback">
+      <a class="button-comeback" href="index.html"></a>
+      <a class="text-comeback" href="index.html"
+        >ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ</a
+      >
     </nav>
+
+    <section class="heading">
+      <h1>О ШКОЛЕ</h1>
+      <img
+        id="parallaxPlusPlus"
+        class="fx"
+        src="images/elements/fx.svg"
+        alt="fx"
+      />
+      <img
+        id="parallaxPlusMinus"
+        class="frame"
+        src="images/elements/frame.svg"
+        alt="frame"
+      />
+      <img
+        id="parallaxMinusMinus"
+        class="arrows1"
+        src="images/elements/arrows1.svg"
+        alt="arrows1"
+      />
+      <img
+        id="parallaxMinusPlus"
+        class="clock"
+        src="images/elements/clock.svg"
+        alt="clock"
+      />
+      <img
+        id="parallaxPlusPlus2"
+        class="pen"
+        src="images/elements/pen.svg"
+        alt="pen"
+      />
+      <img
+        id="parallaxPlusMinus2"
+        class="arrows2"
+        src="images/elements/arrows2.svg"
+        alt="arrows2"
+      />
+    </section>
+
+    <section class="description">
+      <section class="elements">
+        <img
+          class="visibility"
+          src="images/elements/visibility.svg"
+          alt="visibility"
+        />
+        <img class="circle" src="images/elements/circle.svg" alt="circle" />
+        <img class="cut" src="images/elements/cut.svg" alt="cut" />
+      </section>
+      <section class="text">
+        <p>
+          Таймлайн — это школа монтажа для тех, кто хочет освоить искусство
+          видеопроизводства.
+        </p>
+        <p>
+          Студенты обучаются искусству монтажа с нуля и отточивают мастерство на
+          продвинутых курсах.
+        </p>
+      </section>
+    </section>
+
+    <section class="courses-part">
+      <img
+        class="background"
+        src="images/for-about-school/background.svg"
+        alt="background"
+      />
+      <p class="courses-heading">
+        Школа предлагает несколько курсов<br />для разных целей и уровней
+        подготовки
+      </p>
+
+      <div class="first-marquee">
+        <div class="parts-of-marquee">
+          <div class="pink">МОНТАЖ С НУЛЯ</div>
+          <div class="green">РЕЖИССУРА МОНТАЖА</div>
+          <div class="pink">МОНТАЖ С НУЛЯ</div>
+          <div class="green">РЕЖИССУРА МОНТАЖА</div>
+          <!-- <div class="pink">МОНТАЖ С НУЛЯ</div>
+          <div class="green">РЕЖИССУРА МОНТАЖА</div> -->
+        </div>
+      </div>
+
+      <div class="second-marquee">
+        <div class="parts-of-marquee">
+          <div class="yellow">МОНТАЖ КЛИПОВ</div>
+          <div class="orange">ВИЗУАЛЬНЫЕ ЭФФЕКТЫ</div>
+          <div class="yellow">МОНТАЖ КЛИПОВ</div>
+          <div class="orange">ВИЗУАЛЬНЫЕ ЭФФЕКТЫ</div>
+        </div>
+      </div>
+
+      <div class="button-course"></div>
+      <a class="button-course-text" href="courses.html"
+        >Выбрать курс <span class="arrow">→</span></a
+      >
+    </section>
+
+    <section class="space-part">
+      <h2>УЮТНЫЙ КОРПУС</h2>
+      <div class="slider">
+        <button id="prevBtn" class="slider-btn-prev">
+          <img
+            class="arrow-prev"
+            src="images/for-about-school/arrow-for-button.svg"
+            alt="arrow"
+          />
+        </button>
+
+        <button id="nextBtn" class="slider-btn-next">
+          <img
+            class="arrow-btn"
+            src="images/for-about-school/arrow-for-button.svg"
+            alt="arrow"
+          />
+        </button>
+
+        <img
+          id="slideImage"
+          src="images/for-about-school/place1.png"
+          alt="slide"
+        />
+      </div>
+    </section>
+
+    <section class="events-part">
+      <section class="first-part">
+        <h2>БЛИЖАЙШИЕ<br />СОБЫТИЯ</h2>
+        <a class="text" href="events.html"
+          >Посмотреть<br />все события <span class="arrow">→</span></a
+        >
+      </section>
+
+      <section class="second-part">
+        <a class="first-event" href="events.html"
+          >ОТКРЫТЫЙ<br />ПРОСМОТР ДИПЛОМОВ</a
+        >
+        <a class="second-event" href="events.html"
+          >ЛЕКЦИЯ<br />«КАК РАБОТАТЬ С ИДЕЕЙ»</a
+        >
+        <a class="third-event" href="events.html"
+          >ЛЕКЦИЯ<br />«КАК ДУМАТЬ ПО-РАЗНОМУ»</a
+        >
+      </section>
+    </section>
+
+    <section class="final-part">
+      <h2>НАЧНИ МОНТИРОВАТЬ<br />С ТАЙМЛАЙН</h2>
+      <a class="button-watch-course" href="courses.html"
+        >Посмотреть курсы <span class="arrow">→</span></a
+      >
+
+      <img class="circle" src="images/elements/circle.svg" alt="circle" />
+      <img class="fx" src="images/elements/fx.svg" alt="fx" />
+      <img class="pen" src="images/elements/pen.svg" alt="pen" />
+      <img class="stick" src="images/elements/stick.svg" alt="stick" />
+
+      <img class="frame" src="images/elements/frame.svg" alt="frame" />
+      <img class="cut" src="images/elements/cut.svg" alt="cut" />
+      <img class="clock" src="images/elements/clock.svg" alt="clock" />
+
+      <img
+        class="final-background"
+        src="images/for-about-school/final-background.svg"
+        alt="final-background"
+      />
+    </section>
+
+    <footer>
+      <section class="footer">
+        <section class="first">
+          <h1>КОНТАКТЫ</h1>
+          <p>+7 (123) 456 78 91</p>
+          <p>pochta.timeline@mail.ru</p>
+        </section>
+
+        <section class="second">
+          <h1>АДРЕС</h1>
+          <p>Малая Пионерская улица 12</p>
+        </section>
+
+        <section class="thrid">
+          <a href="index.html">Главная</a>
+          <a href="aboutschool.html">О школе</a>
+          <a href="courses.html">Курсы</a>
+          <a href="events.html">События</a>
+          <a href="shop.html">Магазин</a>
+        </section>
+
+        <section class="forth">
+          <p>Драчева Мария</p>
+          <p>Дарья Зародина</p>
+          <p>Анна Комкова</p>
+        </section>
+      </section>
+    </footer>
   </body>
 </html>

@@ -3,18 +3,428 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>МЕРОПРИЯТИЯ</title>
+    <title>СОБЫТИЯ</title>
     <link rel="stylesheet" href="stylesheets/style.css" />
-    <script defer src="javascripts/script.js"></script>
+    <script defer src="javascripts/events.js"></script>
+    <link rel="icon" href="images/icon.svg" />
   </head>
-  <body>
-    <div id="burger"></div>
-    <nav class="mainMenu">
-      <a href="index.html">ТАЙМЛАЙН</a>
-      <a href="aboutschool.html">О ШКОЛЕ</a>
-      <a href="events.html">МЕРОПРИЯТИЯ</a>
-      <a href="courses.html">КУРСЫ</a>
-      <a href="shop.html">МАГАЗИН</a>
+  <body class="page-events">
+    <!-- <img class="bg-overlay" src="images/layouts/events.png" alt="Slide" /> -->
+    <nav class="comeback">
+      <a class="button-comeback" href="index.html"></a>
+      <a class="text-comeback" href="index.html"
+        >ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ</a
+      >
     </nav>
+    <section class="heading">
+      <h1>СОБЫТИЯ</h1>
+
+      <img
+        id="parallaxPlusPlus"
+        class="fx"
+        src="images/elements/fx.svg"
+        alt="fx"
+      />
+      <img
+        id="parallaxPlusMinus"
+        class="frame"
+        src="images/elements/frame.svg"
+        alt="frame"
+      />
+      <img
+        id="parallaxMinusPlus"
+        class="clock"
+        src="images/elements/clock.svg"
+        alt="clock"
+      />
+      <img
+        id="parallaxMinusMinus"
+        class="visibility"
+        src="images/elements/visibility.svg"
+        alt="visibility"
+      />
+    </section>
+
+    <section class="cards-events">
+      <section class="first-event" data-modal="modal-first-event">
+        <h2>ЛЕКЦИЯ<br />«ОБ ИСТОРИИ МОНТАЖА»</h2>
+        <h2>23.04<br />2026</h2>
+      </section>
+
+      <div class="modal" id="modal-first-event">
+        <div class="modal-window">
+          <button class="modal-close" type="button"></button>
+
+          <div class="marquee-window">
+            <p class="text-marquee-window">
+              СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ
+            </p>
+          </div>
+
+          <img
+            class="poster"
+            src="images/posters-for-events/first-event.svg"
+            alt="first-event"
+          />
+
+          <h3>ЛЕКЦИЯ<br />«ОБ ИСТОРИИ МОНТАЖА»</h3>
+
+          <p class="description-event">
+            Лекция «Об истории монтажа» погрузит вас<br />в эволюцию
+            видеомонтажа — от ручного склеивания<br />киноплёнки до современных
+            цифровых технологий.<br />
+            Вы узнаете о ключевых этапах развития профессии,<br />знаковых
+            фильмах и новаторских приёмах. Лекция<br />поможет понять, как
+            монтаж превратился<br />
+            из технического процесса в мощный художественный<br />инструмент,
+            формирующий восприятие зрителя.
+          </p>
+
+          <p class="date">Дата: 23.04.2026</p>
+          <p class="info">Спикер: Вячеслав Хохлов</p>
+
+          <button class="button-to" type="button">
+            <a href="404.html">ПОЙТИ</a>
+          </button>
+        </div>
+      </div>
+
+      <section class="second-event" data-modal="modal-second-event">
+        <h2>МАСТЕР-КЛАСС<br />«ОСНОВЫ МОНТАЖА»</h2>
+        <h2>18.05<br />2026</h2>
+      </section>
+
+      <div class="modal" id="modal-second-event">
+        <div class="modal-window">
+          <button class="modal-close" type="button"></button>
+
+          <div class="marquee-window">
+            <p class="text-marquee-window">
+              СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ
+            </p>
+          </div>
+
+          <img
+            class="poster"
+            src="images/posters-for-events/second-event.svg"
+            alt="second-event"
+          />
+
+          <h3>МАСТЕР-КЛАСС<br />«ОСНОВЫ МОНТАЖА»</h3>
+
+          <p class="description-event">
+            Мастер‑класс «Основы монтажа» поможет освоить<br />базовые приёмы
+            видеомонтажа: участники<br />познакомятся с интерфейсом Adobe
+            Premiere Pro,<br />научатся работать с кадрами, добавлять
+            переходы<br />и звук, а в завершение смонтируют свой первый<br />короткий
+            ролик под руководством преподавателя.
+          </p>
+
+          <p class="date2">Дата: 18.05.2026</p>
+          <p class="info2">Автор: Владимир Сабатовский</p>
+
+          <button class="button-to2" type="button">
+            <a href="404.html">ПОЙТИ</a>
+          </button>
+        </div>
+      </div>
+
+      <section class="thrid-event" data-modal="modal-thrid-event">
+        <h2>ОТКРЫТЫЙ<br />ПРОСМОТР ДИПЛОМОВ</h2>
+        <h2>29.06<br />2026</h2>
+      </section>
+
+      <div class="modal" id="modal-thrid-event">
+        <div class="modal-window">
+          <button class="modal-close" type="button"></button>
+
+          <div class="marquee-window">
+            <p class="text-marquee-window">
+              СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ
+            </p>
+          </div>
+
+          <img
+            class="poster"
+            src="images/posters-for-events/third-event.svg"
+            alt="third-event"
+          />
+
+          <h3>ОТКРЫТЫЙ<br />«ПРОСМОТР ДИПЛОМОВ»</h3>
+
+          <p class="description-event">
+            В уютном зале собираются студенты, наставники<br />и гости, чтобы
+            увидеть плоды усердного труда.<br />На экране демонстрируют учебные
+            фильмы,<br />
+            созданные руками выпускников. После каждого<br />ролика звучит
+            разбор: отмечают сильные стороны<br />и деликатно указывают на зоны
+            роста. Для студентов<br />это не только оценка навыков, но и ценный
+            диалог<br />с профессионалами индустрии.
+          </p>
+
+          <p class="date3">Дата: 29.06.2026</p>
+
+          <button class="button-to" type="button">
+            <a href="404.html">ПОЙТИ</a>
+          </button>
+        </div>
+      </div>
+
+      <section class="forth-event" data-modal="modal-forth-event">
+        <h2>ЛЕКЦИЯ<br />«КАК РАБОТАТЬ ПО-РАЗНОМУ»</h2>
+        <h2>30.07<br />2026</h2>
+      </section>
+
+      <div class="modal" id="modal-forth-event">
+        <div class="modal-window">
+          <button class="modal-close" type="button"></button>
+
+          <div class="marquee-window">
+            <p class="text-marquee-window">
+              СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ
+            </p>
+          </div>
+
+          <img
+            class="poster"
+            src="images/posters-for-events/forth-event.png"
+            alt="first-event"
+          />
+
+          <h3>ЛЕКЦИЯ<br />«КАК РАБОТАТЬ ПО-РАЗНОМУ»</h3>
+
+          <p class="description-event">
+            На лекции вы узнаете, как с помощью монтажа можно<br />менять
+            настроение сцены, управлять ритмом<br />повествования и подчёркивать
+            драматургию. <br />Мы рассмотрим основные стилистические<br />приёмы — от
+            классического «невидимого» монтажа<br />до смелых экспериментальных
+            решений.<br />Вы познакомитесь с тем, как разные стили монтажа<br />
+            используются в кино, рекламе и музыкальных клипах.
+          </p>
+
+          <p class="date4">Дата: 30.07.2026</p>
+          <p class="info4">Спикер: Валерия Чайкина</p>
+
+          <button class="button-to" type="button">
+            <a href="404.html">ПОЙТИ</a>
+          </button>
+        </div>
+      </div>
+
+      <section class="fifth-event" data-modal="modal-fifth-event">
+        <h2>ЛЕКЦИЯ<br />«КАК РАБОТАТЬ С ИДЕЕЙ»</h2>
+        <h2>20.08<br />2026</h2>
+      </section>
+
+      <div class="modal" id="modal-fifth-event">
+        <div class="modal-window">
+          <button class="modal-close" type="button"></button>
+
+          <div class="marquee-window">
+            <p class="text-marquee-window">
+              СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ
+            </p>
+          </div>
+
+          <img
+            class="poster"
+            src="images/posters-for-events/fifth-event.png"
+            alt="first-event"
+          />
+
+          <h3>ЛЕКЦИЯ<br />«КАК РАБОТАТЬ С ИДЕЕЙ»</h3>
+
+          <p class="description-event">
+            Вы узнаете, как превратить смутный замысел в чёткий<br />план работы
+            и какие инструменты помогут донести<br />идею до зрителя с помощью
+            монтажа. На лекции мы<br />покажем, что монтаж — это не только
+            техническая<br />склейка кадров, но и творческий процесс, в
+            котором<br />идея становится главным ориентиром. Вы поймёте,<br />как
+            анализировать сценарий или исходные<br />
+            материалы, чтобы выявить ключевые смыслы.
+          </p>
+
+          <p class="date5">Дата: 20.08.2026</p>
+          <p class="info5">Спикеры: Анна Соколова и Матвей Ерёмин</p>
+
+          <button class="button-to5" type="button">
+            <a href="404.html">ПОЙТИ</a>
+          </button>
+        </div>
+      </div>
+
+      <section class="sixth-event" data-modal="modal-sixth-event">
+        <h2>РАЗБОР<br />СТУДЕНЧЕСКИХ РАБОТ</h2>
+        <h2>15.10<br />2026</h2>
+      </section>
+
+      <div class="modal" id="modal-sixth-event">
+        <div class="modal-window">
+          <button class="modal-close" type="button"></button>
+
+          <div class="marquee-window">
+            <p class="text-marquee-window">
+              СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ
+            </p>
+          </div>
+
+          <img
+            class="poster"
+            src="images/posters-for-events/sixth-event.png"
+            alt="first-event"
+          />
+
+          <h3>РАЗБОР<br />СТУДЕНЧЕСКИХ РАБОТ</h3>
+
+          <p class="description-event">
+            Приглашаем на мероприятие, где вместе с экспертами<br />разберём
+            студенческие видеопроекты: от коротких<br />этюдов до курсовых
+            роликов. На разборе мы<br />не просто скажем «нравится/не нравится»,
+            а покажем,<br />
+            как анализировать работу системно: от идеи<br />до технических
+            нюансов склейки, цветокоррекции,<br />звука. Вы поймёте, по каким
+            критериям<br />
+            профессионалы оценивают монтаж, и сможете<br />применять эти
+            замечания в собственной практике.
+          </p>
+
+          <p class="date6">Дата: 15.10.2026</p>
+          <p class="info6">Эксперты: Владимир Сабатовский и Валерия Чайкина</p>
+
+          <button class="button-to6" type="button">
+            <a href="404.html">ПОЙТИ</a>
+          </button>
+        </div>
+      </div>
+
+      <section class="seventh-event" data-modal="modal-seventh-event">
+        <h2>МАСТЕР-КЛАСС<br />«ВИДЕООТКРЫТКА»</h2>
+        <h2>06.11<br />2026</h2>
+      </section>
+
+      <div class="modal" id="modal-seventh-event">
+        <div class="modal-window">
+          <button class="modal-close" type="button"></button>
+
+          <div class="marquee-window">
+            <p class="text-marquee-window">
+              СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ
+            </p>
+          </div>
+
+          <img
+            class="poster"
+            src="images/posters-for-events/seventh-event.png"
+            alt="first-event"
+          />
+
+          <h3>МАСТЕР-КЛАСС<br />«ВИДЕООТКРЫТКА»</h3>
+
+          <p class="description-event">
+            На мастер-классе узнаете, как превратить обычное<br />поздравление в
+            маленький фильм: с продуманным<br />сюжетом, тёплой атмосферой и
+            выразительными<br />деталями. Мы покажем, как создавать
+            видеооткрытки<br />в разных форматах — от личного обращения в
+            кадре<br />до коллажа из фото и видео с анимацией и озвучкой.
+          </p>
+
+          <p class="date7">Дата: 06.11.2026</p>
+          <p class="info7">Автор: Анна Соколова</p>
+
+          <button class="button-to7" type="button">
+            <a href="404.html">ПОЙТИ</a>
+          </button>
+        </div>
+      </div>
+
+      <section class="eighth-event" data-modal="modal-eighth-event">
+        <h2>ПРОСМОТР<br />НОВОГОДНИХ РАБОТ</h2>
+        <h2>24.12<br />2026</h2>
+      </section>
+    </section>
+
+    <div class="modal" id="modal-eighth-event">
+      <div class="modal-window">
+        <button class="modal-close" type="button"></button>
+
+        <div class="marquee-window">
+          <p class="text-marquee-window">
+            СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ&nbsp;&nbsp;&nbsp;&nbsp;СОБЫТИЕ
+          </p>
+        </div>
+
+        <img
+          class="poster"
+          src="images/posters-for-events/eighth-event.png"
+          alt="first-event"
+        />
+
+        <h3>ПРОСМОТР<br />НОВОГОДНИХ РАБОТ</h3>
+
+        <p class="description-event">
+          Приглашаем на уютный просмотр новогодних<br />видеоработ — от
+          студенческих этюдов<br />до профессиональных праздничных проектов.
+          Вместе<br />с экспертами мы не просто посмотрим красивые<br />кадры, а
+          разберём, как создаётся та самая магия<br />праздника: как через
+          монтаж, свет, звук и композицию<br />авторы передают ощущение чуда,
+          уюта<br />и предвкушения Нового года.
+        </p>
+
+        <p class="date8">Дата: 24.12.2026</p>
+        <p class="info8">Спикер: Матвей Ерёмин</p>
+
+        <button class="button-to8" type="button">
+          <a href="https://mashroomkakgrib.github.io/illinc/">ПОЙТИ</a>
+        </button>
+      </div>
+    </div>
+
+    <section class="footer">
+      <section class="first">
+        <h1>КОНТАКТЫ</h1>
+        <p>+7 (123) 456 78 91</p>
+        <p>pochta.timeline@mail.ru</p>
+      </section>
+
+      <section class="second">
+        <h1>АДРЕС</h1>
+        <p>Малая Пионерская улица 12</p>
+      </section>
+
+      <section class="thrid">
+        <a href="index.html">Главная</a>
+        <a href="aboutschool.html">О школе</a>
+        <a href="courses.html">Курсы</a>
+        <a href="events.html">События</a>
+        <a href="shop.html">Магазин</a>
+      </section>
+
+      <section class="forth">
+        <p>Мария Драчева</p>
+        <p>Дарья Зародина</p>
+        <p>Анна Комкова</p>
+      </section>
+    </section>
   </body>
 </html>
+
+<!-- <div class="modal eventsModal" id="firstevent">
+          <div class="modalwindow">
+            <button class="modalclose" type="button">
+              <img src="images/foraboutschool/arrowgreen.svg" alt="" />
+            </button>
+
+            <h2>ЛЕКЦИЯ<br />«ОБ ИСТОРИИ МОНТАЖА»</h2>
+            <p>
+              Лекция «Об истории монтажа» погрузит вас в эволюцию видеомонтажа —
+              от ручного склеивания киноплёнки до современных цифровых
+              технологий. Вы узнаете о ключевых этапах развития профессии,
+              знаковых фильмах и новаторских приёмах. Лекция поможет понять, как
+              монтаж превратился из технического процесса в мощный
+              художественный инструмент, формирующий восприятие зрителя.
+            </p>
+            <button class="button" type="button">
+              <a href="404.html">ПОЙТИ</a>
+            </button>
+           </div>
+        </div> -->

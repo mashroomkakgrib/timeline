@@ -1,6 +1,15 @@
 @font-face {
   font-family: 'Mont';
   src: url('../fonts/Mont-SemiBold.ttf') format('truetype');
+  src: url('../fonts/Mont-SemiBold.woff') format('woff');
   font-style: bold;
-  font-weight: 500;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Regular.ttf') format('truetype');
+  src: url('../fonts/Mont-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
 }

@@ -5,16 +5,426 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>МАГАЗИН</title>
     <link rel="stylesheet" href="stylesheets/style.css" />
-    <script defer src="javascripts/script.js"></script>
+    <script defer src="javascripts/shop.js"></script>
+    <link rel="icon" href="images/icon.svg" />
   </head>
-  <body>
-    <div id="burger"></div>
-    <nav class="mainMenu">
-      <a href="index.html" class="active">ТАЙМЛАЙН</a>
-      <a href="aboutschool.html">О ШКОЛЕ</a>
-      <a href="events.html">МЕРОПРИЯТИЯ</a>
-      <a href="courses.html">КУРСЫ</a>
-      <a href="shop.html">МАГАЗИН</a>
+  <body class="page-shop">
+    <nav class="comeback">
+      <a class="button-comeback" href="index.html"></a>
+      <a class="text-comeback" href="index.html"
+        >ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ&nbsp;&nbsp;&nbsp;&nbsp;ВЕРНУТЬСЯ</a
+      >
     </nav>
+
+    <section class="heading">
+      <h1>МАГАЗИН</h1>
+
+      <img
+        id="parallaxPlusPlus"
+        class="clock"
+        src="images/elements/clock.svg"
+        alt="clock"
+      />
+      <img
+        id="parallaxPlusMinus"
+        class="arrows1"
+        src="images/elements/arrows1.svg"
+        alt="arrows1"
+      />
+      <img
+        id="parallaxMinusPlus"
+        class="stick"
+        src="images/elements/stick.svg"
+        alt="stick"
+      />
+      <img
+        id="parallaxMinusMinus"
+        class="circle"
+        src="images/elements/circle.svg"
+        alt="circle"
+      />
+      <img
+        id="parallaxPlusPlus2"
+        class="pen"
+        src="images/elements/pen.svg"
+        alt="pen"
+      />
+      <img
+        id="parallaxPlusMinus2"
+        class="arrow"
+        src="images/elements/arrow.svg"
+        alt="arrow"
+      />
+    </section>
+
+    <section class="products">
+      <section class="product1">
+        <h2>ФУТБОЛКА</h2>
+        <h3>1090₽</h3>
+        <p>Размеры в наличии: s, m, l, xl</p>
+
+        <button
+          class="button-order"
+          type="button"
+          data-modal="modal-first-product"
+        >
+          ЗАКАЗАТЬ
+        </button>
+
+        <div class="t-short">
+          <img class="t-short1" src="images/for-shop/t-short1.png" alt="" />
+          <img class="t-short2" src="images/for-shop/t-short2.png" alt="" />
+        </div>
+
+        <div class="modal-order" id="modal-first-product">
+          <div class="modal-window-order">
+            <button class="modal-close-order" type="button"></button>
+
+            <div class="marquee-window-order">
+              <p class="text-marquee-window-order">
+                ОФОРМЛЕНИЕ ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ ЗАКАЗА
+              </p>
+            </div>
+
+            <div class="img-form">
+              <div class="img-of-order">
+                <img
+                  class="product"
+                  src="images/for-shop/t-short3.png"
+                  alt=""
+                />
+                <h1 class="name-product">ФУТБОЛКА</h1>
+                <h2 class="price-product">1090₽</h2>
+              </div>
+
+              <div class="form-for-order">
+                <h1 class="buyer">ПОКУПАТЕЛЬ</h1>
+                <form making-order="">
+                  <span class="placeholder">
+                    <input
+                      type="text"
+                      name="userName"
+                      value=""
+                      placeholder=""
+                    />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="email" name="email" value="" placeholder="" />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="tel" name="phone" value="" placeholder="" />
+                  </span>
+
+                  <h1 class="delivery">ДОСТАВКА</h1>
+                  <span class="placeholder">
+                    <input
+                      type="text"
+                      name="address-way"
+                      value=""
+                      placeholder=""
+                    />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="text" name="address" value="" placeholder="" />
+                  </span>
+                </form>
+
+                <a class="button-to-order" href="404.html">ЗАКАЗАТЬ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product2">
+        <h2>ЛОНГСЛИВ</h2>
+        <h3>1200₽</h3>
+        <p>Размеры в наличии: s, m, l, xl</p>
+
+        <button
+          class="button-order"
+          type="button"
+          data-modal="modal-second-product"
+        >
+          ЗАКАЗАТЬ
+        </button>
+
+        <div class="longsleeve">
+          <img
+            class="longsleeve1"
+            src="images/for-shop/longsleeve1.png"
+            alt=""
+          />
+          <img
+            class="longsleeve2"
+            src="images/for-shop/longsleeve2.png"
+            alt=""
+          />
+        </div>
+
+        <div class="modal-order" id="modal-second-product">
+          <div class="modal-window-order">
+            <button class="modal-close-order" type="button"></button>
+
+            <div class="marquee-window-order">
+              <p class="text-marquee-window-order">
+                ОФОРМЛЕНИЕ ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ ЗАКАЗА
+              </p>
+            </div>
+
+            <div class="img-form">
+              <div class="img-of-order">
+                <img
+                  class="product"
+                  src="images/for-shop/longsleeve3.png"
+                  alt=""
+                />
+                <h1 class="name-product">ЛОНГСЛИВ</h1>
+                <h2 class="price-product">1200₽</h2>
+              </div>
+
+              <div class="form-for-order">
+                <h1 class="buyer">ПОКУПАТЕЛЬ</h1>
+                <form making-order="">
+                  <span class="placeholder">
+                    <input
+                      type="text"
+                      name="userName"
+                      value=""
+                      placeholder=""
+                    />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="email" name="email" value="" placeholder="" />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="tel" name="phone" value="" placeholder="" />
+                  </span>
+
+                  <h1 class="delivery">ДОСТАВКА</h1>
+                  <span class="placeholder">
+                    <input
+                      type="text"
+                      name="address-way"
+                      value=""
+                      placeholder=""
+                    />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="text" name="address" value="" placeholder="" />
+                  </span>
+                </form>
+
+                <a class="button-to-order" href="404.html">ЗАКАЗАТЬ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product3">
+        <h2>НОСКИ</h2>
+        <h3>650₽</h3>
+        <p>Размеры в наличии: s, m, l</p>
+
+        <button
+          class="button-for-product3"
+          class="button-order"
+          type="button"
+          data-modal="modal-third-product"
+        >
+          ЗАКАЗАТЬ
+        </button>
+
+        <div class="socks">
+          <img class="socks1" src="images/for-shop/socks1.png" alt="socks1" />
+          <img class="socks2" src="images/for-shop/socks2.png" alt="socks2" />
+        </div>
+
+        <div class="modal-order" id="modal-third-product">
+          <div class="modal-window-order">
+            <button class="modal-close-order" type="button"></button>
+
+            <div class="marquee-window-order">
+              <p class="text-marquee-window-order">
+                ОФОРМЛЕНИЕ ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ ЗАКАЗА
+              </p>
+            </div>
+
+            <div class="img-form">
+              <div class="img-of-order">
+                <img class="product" src="images/for-shop/socks3.png" alt="" />
+                <h1 class="name-product">НОСКИ</h1>
+                <h2 class="price-product">650₽</h2>
+              </div>
+
+              <div class="form-for-order">
+                <h1 class="buyer">ПОКУПАТЕЛЬ</h1>
+                <form making-order="">
+                  <span class="placeholder">
+                    <input
+                      type="text"
+                      name="userName"
+                      value=""
+                      placeholder=""
+                    />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="email" name="email" value="" placeholder="" />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="tel" name="phone" value="" placeholder="" />
+                  </span>
+
+                  <h1 class="delivery">ДОСТАВКА</h1>
+                  <span class="placeholder">
+                    <input
+                      type="text"
+                      name="address-way"
+                      value=""
+                      placeholder=""
+                    />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="text" name="address" value="" placeholder="" />
+                  </span>
+                </form>
+
+                <a class="button-to-order" href="404.html">ЗАКАЗАТЬ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product4">
+        <h2>КРУЖКА</h2>
+        <h3>800₽</h3>
+        <p>Объём кружки 250 мл.</p>
+
+        <button
+          class="button-for-product4"
+          type="button"
+          data-modal="modal-forth-product"
+        >
+          ЗАКАЗАТЬ
+        </button>
+
+        <div class="cup">
+          <img class="cup1" src="images/for-shop/cup1.png" alt="socks1" />
+          <img class="cup2" src="images/for-shop/cup2.png" alt="socks2" />
+        </div>
+
+        <div class="modal-order" id="modal-forth-product">
+          <div class="modal-window-order">
+            <button class="modal-close-order" type="button"></button>
+
+            <div class="marquee-window-order">
+              <p class="text-marquee-window-order">
+                ОФОРМЛЕНИЕ ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ
+                ЗАКАЗА&nbsp;&nbsp;&nbsp;&nbsp;ОФОРМЛЕНИЕ ЗАКАЗА
+              </p>
+            </div>
+
+            <div class="img-form">
+              <div class="img-of-order">
+                <img class="product" src="images/for-shop/cup3.png" alt="" />
+                <h1 class="name-product">КРУЖКА</h1>
+                <h2 class="price-product">800₽</h2>
+              </div>
+
+              <div class="form-for-order">
+                <h1 class="buyer">ПОКУПАТЕЛЬ</h1>
+                <form making-order="">
+                  <span class="placeholder">
+                    <input
+                      type="text"
+                      name="userName"
+                      value=""
+                      placeholder=""
+                    />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="email" name="email" value="" placeholder="" />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="tel" name="phone" value="" placeholder="" />
+                  </span>
+
+                  <h1 class="delivery">ДОСТАВКА</h1>
+                  <span class="placeholder">
+                    <input
+                      type="text"
+                      name="address-way"
+                      value=""
+                      placeholder=""
+                    />
+                  </span>
+
+                  <span class="placeholder">
+                    <input type="text" name="address" value="" placeholder="" />
+                  </span>
+                </form>
+
+                <a class="button-to-order" href="404.html">ЗАКАЗАТЬ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="footer">
+      <section class="first">
+        <h1>КОНТАКТЫ</h1>
+        <p>+7 (123) 456 78 91</p>
+        <p>pochta.timeline@mail.ru</p>
+      </section>
+
+      <section class="second">
+        <h1>АДРЕС</h1>
+        <p>Малая Пионерская улица 12</p>
+      </section>
+
+      <section class="thrid">
+        <a href="index.html">Главная</a>
+        <a href="aboutschool.html">О школе</a>
+        <a href="courses.html">Курсы</a>
+        <a href="events.html">События</a>
+        <a href="shop.html">Магазин</a>
+      </section>
+
+      <section class="forth">
+        <p>Драчева Мария</p>
+        <p>Дарья Зародина</p>
+        <p>Комкова Анна</p>
+      </section>
+    </section>
   </body>
 </html>
