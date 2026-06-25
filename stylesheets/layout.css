@@ -448,6 +448,7 @@ section {
 
 .page-about-school .courses-part .first-marquee {
   top: -33vw;
+  left: -1vw;
 }
 .page-about-school .courses-part .second-marquee {
   top: -32vw;
@@ -456,7 +457,7 @@ section {
 .page-about-school .courses-part .second-marquee .parts-of-marquee {
   animation: marquee-plus 15s linear infinite;
   position: relative;
-  left: -135vw;
+  left: -91vw;
 }
 
 .pink,
